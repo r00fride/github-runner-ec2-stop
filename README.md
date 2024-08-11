@@ -13,7 +13,7 @@ Example usage including all optional params:
 
 ```
 - name: Run EC2 Stop
-  uses: rogisolorzano/github-runner-ec2-stop@v1
+  uses: r00fride/github-runner-ec2-stop@v1
   with:
     github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
     runner-label: ${{ needs.start-runner.outputs.runner-label }}
